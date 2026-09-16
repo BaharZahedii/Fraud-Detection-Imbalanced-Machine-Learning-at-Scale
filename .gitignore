@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Trained models and metadata — regenerate locally with `python -m src.train`
+artifacts/*.joblib
+artifacts/*.json
+
+# The raw dataset — too large, and not yours to redistribute
+*.csv
+
+# OS/editor noise
+.DS_Store
+.ipynb_checkpoints/
